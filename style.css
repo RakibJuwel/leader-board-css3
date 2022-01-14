@@ -18,10 +18,7 @@ main{
     margin-top: 21px;
     border-radius: 5px;
 }
-hr{
-    border: 1px solid #d1d1d1;
-    margin-bottom: 27px;
-}
+
 .top-players{
     margin-bottom: 30px;
 }
@@ -49,6 +46,12 @@ hr{
     margin-left: 16px;
     font-size: 18px;
 }
+
+hr{
+    border: 1px solid #d1d1d1;
+    margin-bottom: 27px;
+}
+
 /* top blogs style */
 .blogs{
     display: grid;
@@ -64,9 +67,11 @@ hr{
 }
 .blog-info{
     margin-left: 16px;
+    
 }
 .blog-title{
     font-size: 20px;
+    margin-top: 0px;
 }
 .blog-author{
     color: #9f9f9f;
